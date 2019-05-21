@@ -19,6 +19,10 @@ body
     margin-right: auto;
     margin-left: auto;
 }
+.container2{
+	margin-right: auto;
+	margin-left: auto;
+}
 
 h1, h2, h3
 {
@@ -840,3 +844,30 @@ ul.contact li a.icon-rss:before
 	float: right;
 	overflow: hidden;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 600px)
+{
+	.container{
+		width: 600px;
+		padding-inline-end: 315px;
+	}
+
+	.container2{
+		width: 1000px;
+		padding-inline-start: 50px;
+	}
+	.extra2 .ebox2
+	{
+		width: 600px;
+		padding-left: 50px;
+		float: left;
+	}
+
+	.extra2 .ebox1
+	{
+		width: 600px;
+		padding-right: 50px;
+		float: left;
+	}
+}
+
