@@ -1,5 +1,5 @@
 # BongChess
-![Build Status](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg)]
+![Build Status](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg)
 
 BongChess is a chess website which serves as an abstraction over lichess.org. BongChess aims at making chess completely free for everyone.
 
